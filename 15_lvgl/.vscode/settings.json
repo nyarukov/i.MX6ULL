@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "lv_port_disp.h": "c",
+    "beep.h": "c",
+    "lv_gc.h": "c",
+    "lv_img_decoder.h": "c",
+    "stdint.h": "c",
+    "lv_conf_internal.h": "c",
+    "cstdio": "c",
+    "uart.h": "c",
+    "ctype.h": "c",
+    "string.h": "c",
+    "stdio.h": "c",
+    "printf.h": "c",
+    "qrcodegen.h": "c",
+    "lcd_draw.h": "c"
+  },
+  "C_Cpp_Runner.msvcBatchPath": ""
+}

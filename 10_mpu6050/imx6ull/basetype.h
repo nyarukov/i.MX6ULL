@@ -1,0 +1,51 @@
+/*
+ * @Author: Yusaka
+ * @Date: 2023-11-20 10:02:47
+ * @LastEditors: Yusaka
+ * @LastEditTime: 2023-11-25 14:46:55
+ * @FilePath: /09_iic/imx6ull/basetype.h
+ * @Description: 
+ */
+#ifndef   __BASETYPE_H__
+#define   __BASETYPE_H__
+#include <stdbool.h>
+
+/*form core_ca7.h*/
+#define     __I     volatile const           /*!< defines 'read only' permissions */
+#define     __O     volatile                 /*!< defines 'write only' permissions*/
+#define     __IO    volatile                 /*!< defines 'read / write' permissions*/
+
+/* form core_ca7.h, following defines should be used for structure members */
+#define     __IM     volatile const      /*! Defines 'read only' structure member permissions */
+#define     __OM     volatile            /*! Defines 'write only' structure member permissions */
+#define     __IOM    volatile            /*! Defines 'read / write' structure member permissions */
+
+#define ENABLE     1
+#define DISABLE    0
+
+#define GPIO_SET     1
+#define GPIO_RESET   0
+
+typedef signed char s8;
+typedef unsigned char u8;
+
+typedef signed short s16;
+typedef unsigned short u16;
+
+typedef signed int s32;
+typedef unsigned int u32;
+
+typedef signed long long s64;
+typedef unsigned long long u64;
+		  			 		  						  					  				 	   		  	  	 	  
+typedef		u8		uint8_t;
+typedef		s8		int8_t;
+typedef		u16		uint16_t;
+typedef		s16		int16_t;
+typedef		u32		uint32_t;
+typedef		s32		int32_t;
+typedef		u64		uint64_t;
+typedef		s64		int64_t;
+
+#endif
+
